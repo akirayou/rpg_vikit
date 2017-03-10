@@ -1,7 +1,7 @@
 SET(PROJECT_NAME vikit_ros)
 PROJECT(${PROJECT_NAME})
 CMAKE_MINIMUM_REQUIRED (VERSION 2.8.3)
-SET(CMAKE_BUILD_TYPE Release) # Release, RelWithDebInfo
+SET(CMAKE_BUILD_TYPE RelWithDebInfo) # Release, RelWithDebInfo
 SET(CMAKE_VERBOSE_MAKEFILE OFF)
 
 # Set build flags
